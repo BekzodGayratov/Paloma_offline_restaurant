@@ -6,7 +6,7 @@ class ProductModel extends ProductEntity {
   factory ProductModel.fromJson(Map<String, dynamic> json) {
     return ProductModel(
       id: json['id'],
-      amount: json['amount'],
+      amount: json['price'],
       categoryId: json['categoryId'],
       title: json['title'],
     );
@@ -15,7 +15,7 @@ class ProductModel extends ProductEntity {
   Map<String, dynamic> toJson() {
     return {
       'id': id,
-      'amount': amount,
+      'price': amount,
       'categoryId': categoryId,
       'title': title
     };
