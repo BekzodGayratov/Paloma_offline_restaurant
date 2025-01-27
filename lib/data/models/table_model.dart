@@ -1,4 +1,4 @@
-import 'package:offline_restaurant/features/order_managent/domain/entities/table_entity.dart';
+import 'package:offline_restaurant/domain/entities/table_entity.dart';
 
 class TableModel extends TableEntity {
   TableModel({super.id, required super.name, required super.status});

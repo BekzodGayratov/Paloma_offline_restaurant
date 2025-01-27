@@ -1,7 +1,7 @@
-import 'package:offline_restaurant/features/order_managent/data/datasources/category_local_data_source.dart';
-import 'package:offline_restaurant/features/order_managent/data/models/category_model.dart';
-import 'package:offline_restaurant/features/order_managent/domain/entities/category_entity.dart';
-import 'package:offline_restaurant/features/order_managent/domain/repositories/category_repository.dart';
+import 'package:offline_restaurant/data/datasources/category_local_data_source.dart';
+import 'package:offline_restaurant/data/models/category_model.dart';
+import 'package:offline_restaurant/domain/entities/category_entity.dart';
+import 'package:offline_restaurant/domain/repositories/category_repository.dart';
 
 class CategoryRepositoryImpl extends CategoryRepository {
   CategoryRepositoryImpl(this._localDataSource);

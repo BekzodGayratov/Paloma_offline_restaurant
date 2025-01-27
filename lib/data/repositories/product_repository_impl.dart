@@ -1,7 +1,7 @@
-import 'package:offline_restaurant/features/order_managent/data/datasources/product_local_data_source.dart';
-import 'package:offline_restaurant/features/order_managent/data/models/product_model.dart';
-import 'package:offline_restaurant/features/order_managent/domain/entities/product_entity.dart';
-import 'package:offline_restaurant/features/order_managent/domain/repositories/product_repository.dart';
+import 'package:offline_restaurant/data/datasources/product_local_data_source.dart';
+import 'package:offline_restaurant/data/models/product_model.dart';
+import 'package:offline_restaurant/domain/entities/product_entity.dart';
+import 'package:offline_restaurant/domain/repositories/product_repository.dart';
 
 class ProductRepositoryImpl implements ProductRepository {
   final ProductLocalDataSource localDataSource;

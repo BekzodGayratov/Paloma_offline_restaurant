@@ -1,4 +1,4 @@
-import 'package:offline_restaurant/features/order_managent/domain/entities/product_entity.dart';
+import 'package:offline_restaurant/domain/entities/product_entity.dart';
 
 class ProductModel extends ProductEntity {
   ProductModel({super.amount, super.categoryId, super.id, super.title});

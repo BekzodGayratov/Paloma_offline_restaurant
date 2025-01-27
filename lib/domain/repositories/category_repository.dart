@@ -1,4 +1,4 @@
-import 'package:offline_restaurant/features/order_managent/domain/entities/category_entity.dart';
+import 'package:offline_restaurant/domain/entities/category_entity.dart';
 
 abstract class CategoryRepository {
   Future<List<CategoryEntity>> getCategories();

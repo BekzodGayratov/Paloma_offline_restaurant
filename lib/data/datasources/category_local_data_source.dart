@@ -1,4 +1,4 @@
-import 'package:offline_restaurant/features/order_managent/data/models/category_model.dart';
+import 'package:offline_restaurant/data/models/category_model.dart';
 import 'package:sqflite/sqflite.dart';
 
 abstract class CategoryLocalDataSource {

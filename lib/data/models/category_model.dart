@@ -1,4 +1,4 @@
-import 'package:offline_restaurant/features/order_managent/domain/entities/category_entity.dart';
+import 'package:offline_restaurant/domain/entities/category_entity.dart';
 
 class CategoryModel extends CategoryEntity {
   CategoryModel({super.id, required super.title});

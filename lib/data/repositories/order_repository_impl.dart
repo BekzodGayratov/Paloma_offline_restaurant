@@ -1,7 +1,7 @@
-import 'package:offline_restaurant/features/order_managent/data/datasources/order_local_data_source.dart';
-import 'package:offline_restaurant/features/order_managent/domain/entities/order_entity.dart';
-import 'package:offline_restaurant/features/order_managent/domain/entities/order_item_entity.dart';
-import 'package:offline_restaurant/features/order_managent/domain/repositories/order_repository.dart';
+import 'package:offline_restaurant/data/datasources/order_local_data_source.dart';
+import 'package:offline_restaurant/domain/entities/order_entity.dart';
+import 'package:offline_restaurant/domain/entities/order_item_entity.dart';
+import 'package:offline_restaurant/domain/repositories/order_repository.dart';
 
 class OrderRepositoryImpl implements OrderRepository {
   final OrderLocalDataSource _localDataSource;

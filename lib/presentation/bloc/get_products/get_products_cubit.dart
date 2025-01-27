@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:offline_restaurant/features/order_managent/domain/entities/product_entity.dart';
-import 'package:offline_restaurant/features/order_managent/domain/usecases/get_product_usecase.dart';
+import 'package:offline_restaurant/domain/entities/product_entity.dart';
+import 'package:offline_restaurant/domain/usecases/get_product_usecase.dart';
 
 part 'get_products_state.dart';
 

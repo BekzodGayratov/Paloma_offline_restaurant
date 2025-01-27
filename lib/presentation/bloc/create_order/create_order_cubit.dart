@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:offline_restaurant/features/order_managent/domain/entities/order_item_entity.dart';
-import 'package:offline_restaurant/features/order_managent/domain/repositories/order_repository.dart';
+import 'package:offline_restaurant/domain/entities/order_item_entity.dart';
+import 'package:offline_restaurant/domain/repositories/order_repository.dart';
 
 part 'create_order_state.dart';
 

@@ -1,6 +1,6 @@
 import 'package:sqflite/sqflite.dart';
-import 'package:offline_restaurant/features/order_managent/data/models/product_model.dart';
-import 'package:offline_restaurant/features/order_managent/domain/entities/product_entity.dart';
+import 'package:offline_restaurant/data/models/product_model.dart';
+import 'package:offline_restaurant/domain/entities/product_entity.dart';
 
 abstract class ProductLocalDataSource {
   Future<List<ProductEntity>> getProductsByCategory(int categoryId);

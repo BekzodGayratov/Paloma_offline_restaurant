@@ -1,6 +1,6 @@
 import 'package:sqflite/sqflite.dart';
-import 'package:offline_restaurant/features/order_managent/domain/entities/order_entity.dart';
-import 'package:offline_restaurant/features/order_managent/domain/entities/order_item_entity.dart';
+import 'package:offline_restaurant/domain/entities/order_entity.dart';
+import 'package:offline_restaurant/domain/entities/order_item_entity.dart';
 
 abstract class OrderLocalDataSource {
   Future<List<OrderEntity>> getOrders();

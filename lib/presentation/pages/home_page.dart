@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
-import 'package:offline_restaurant/features/order_managent/domain/entities/order_item_entity.dart';
+import 'package:offline_restaurant/domain/entities/order_item_entity.dart';
 import 'package:offline_restaurant/presentation/bloc/create_order/create_order_cubit.dart';
 import 'package:offline_restaurant/presentation/bloc/get_categories/get_categories_cubit.dart';
 import 'package:offline_restaurant/presentation/bloc/get_orders/get_orders_cubit.dart';

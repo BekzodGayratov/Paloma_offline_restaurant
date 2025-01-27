@@ -1,4 +1,4 @@
-import 'package:offline_restaurant/features/order_managent/domain/entities/product_entity.dart';
+import 'package:offline_restaurant/domain/entities/product_entity.dart';
 
 abstract class ProductRepository {
   // Get all products in a specific category
